@@ -61,7 +61,7 @@ body {
 
 /* Typography elements */
 .primary-text {
-    color: var(--accent-red);
+    color: var(--accent-red) !important;
 }
 
 h1, h2, h3, h4, .badge-title {
