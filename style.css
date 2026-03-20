@@ -1,3 +1,23 @@
+/* JohnsonText */
+@font-face { font-family: 'JohnsonText'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonText-Light.otf'); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'JohnsonText'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonText-LightItalic.otf'); font-weight: 300; font-style: italic; }
+@font-face { font-family: 'JohnsonText'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonText-Regular.otf'); font-weight: 400; font-style: normal; }
+@font-face { font-family: 'JohnsonText'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonText-RegularItalic.otf'); font-weight: 400; font-style: italic; }
+@font-face { font-family: 'JohnsonText'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonText-Medium.otf'); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'JohnsonText'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonText-MediumItalic.otf'); font-weight: 500; font-style: italic; }
+@font-face { font-family: 'JohnsonText'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonText-Bold.otf'); font-weight: 700; font-style: normal; }
+@font-face { font-family: 'JohnsonText'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonText-BoldItalic.otf'); font-weight: 700; font-style: italic; }
+
+/* JohnsonDisplay */
+@font-face { font-family: 'JohnsonDisplay'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonDisplay-Light.otf'); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'JohnsonDisplay'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonDisplay-LightItalic.otf'); font-weight: 300; font-style: italic; }
+@font-face { font-family: 'JohnsonDisplay'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonDisplay-Regular.otf'); font-weight: 400; font-style: normal; }
+@font-face { font-family: 'JohnsonDisplay'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonDisplay-RegularItalic.otf'); font-weight: 400; font-style: italic; }
+@font-face { font-family: 'JohnsonDisplay'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonDisplay-Medium.otf'); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'JohnsonDisplay'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonDisplay-MediumItalic.otf'); font-weight: 500; font-style: italic; }
+@font-face { font-family: 'JohnsonDisplay'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonDisplay-Bold.otf'); font-weight: 700; font-style: normal; }
+@font-face { font-family: 'JohnsonDisplay'; src: url('file:///C:/Users/SumeetKerketta/.gemini/antigravity/scratch/savants-event/fonts/JohnsonDisplay-BoldItalic.otf'); font-weight: 700; font-style: italic; }
+
 :root {
     --bg-color: #ffffff;
     --text-primary: #565656;
@@ -8,8 +28,8 @@
     --glass-border: rgba(0, 0, 0, 0.1);
     --glass-hover: rgba(0, 0, 0, 0.05);
     --glow-spread: rgba(235, 23, 0, 0.15);
-    --font-heading: 'Outfit', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --font-heading: 'JohnsonDisplay', sans-serif;
+    --font-body: 'JohnsonText', sans-serif;
 }
 
 * {
